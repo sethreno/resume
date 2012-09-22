@@ -1,0 +1,112 @@
+%-----------------------------------------
+% Seth Reno
+% Resumé
+%
+%-----------------------------------------
+
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+
+\documentclass[11pt,letterpaper,final]{moderncv}
+\usepackage{fontspec}
+\moderncvtheme[darkblue]{classic}
+
+% DOCUMENT LAYOUT
+\usepackage[scale=0.85]{geometry}
+\setlength{\hintscolumnwidth}{2cm}
+\AtBeginDocument{\recomputelengths}
+% FONTS
+\usepackage[utf8]{inputenc}
+\defaultfontfeatures{Mapping=tex-text} % converts LaTeX specials (``quotes'' --- dashes etc.) to unicode
+
+% Remove % to set to different fonts
+%\setromanfont [Ligatures={Common},Numbers={OldStyle}]{Adobe Caslon Pro}
+%\setmonofont[Scale=0.8]{Monaco} 
+
+% ---- CUSTOM AMPERSAND
+\newcommand{\amper}{{\fontspec[Scale=.95]{Adobe Caslon Pro}\selectfont\itshape\&}}
+
+% ---- MARGIN YEARS
+%\newcommand{\years}[1]{\marginpar{\scriptsize #1}}
+
+
+% PDF SETUP
+% ---- FILL IN HERE THE DOC TITLE AND AUTHOR
+
+
+% Personal Information
+\firstname{Seth}
+\familyname{Reno}
+\address{714 S. Chestnut}{Cameron, MO 64429}
+\mobile{(816) 352-6684}
+\email{sethreno@gmail.com}
+%\homepage{www.renonet.com}
+
+\title{Seth Reno's Resume}
+
+\nopagenumbers{}
+
+\begin{document}
+\maketitle
+\section{Summary}
+\cvline{}{ 
+I am a Software Developer who cares about my craft. I prefer to work in an agile team environment where
+knowledge is valued and shared. I have a fundamental understanding of programming that allows me to
+succeed regardless of language or platform.
+}
+
+\section{Languages \& Tools} 
+	\cvline {Languages:}
+{C\#, JavaScript, Python, Java, VB.NET, C, Ruby, Scheme, SQL, HTML, CSS, shell scripting}
+	\cvline {Frameworks:}
+{ASP.NET, Django, Ruby on Rails} 
+	\cvline {Software:}
+{Vim, Visual Studio, Subversion, IIS, Apache, SQL Server, MSBuild, Jenkins, redmine}
+	\cvline {OSes:}
+{Linux, Windows}
+
+\section{Experience} 
+	\cventry
+{2005 -- Now} {Sr. Programmer Analyst}{Cameron Insurance Companies}{Cameron, MO}{}{
+		\begin{itemize}
+			\item 
+Lead developer on a team comprised of four .NET developers, four COBOL programmers, and an outside
+vendor working on a three year mainframe policy system replacement project. During this project I
+utilized my skills in communication, project management, object oriented analysis and design, software
+construction, shell scripting, and debugging to provide an effective solution.
+			\item 
+Led my team to adopt modern development practices including: code generation, unit testing,
+automated builds, automated deployment, proper version control, and code reviews.
+			\item 
+Mentored other developers and learned from them as well.
+			\item 
+Wrote a business object framework which is used to enforce complex underwriting rules.
+			\item 
+Designed, wrote, and maintained an ASP.NET web portal that provides access to data and services on
+mainframe systems.
+			\item 
+Implemented a web service that uses industry standard XML to provide real time rating services to third
+party comparative raters.
+			\item 
+Participated in the full software development process on over 10 projects.
+		\end{itemize}
+}
+
+	\cventry
+{2001 -- 2005}{Sr. System Administrator}{Shook, Hardy, \& Bacon}{Kansas City, MO}{}{
+	\begin{itemize}
+		\item Developed an application that tracks hardware, software, and drive usage on 250 servers.
+		\item Wrote scripts to automate repetitive system administration tasks.
+	\end{itemize}
+	}
+
+\section{Education} 
+	\cventry
+{2001 -- 2004}{Bachelor of Science in Computer Information Systems}{DeVry University}{Kansas City, MO}{}{}
+
+\section{Additional Info}
+	\cvlistitem{I am an avid reader of programming books. My favorite is "The Pragmatic Programmer".}
+	\cvlistitem{My first computer was an Apple {][}.}
+	\cvlistitem{This r\'{e}sum\'{e} was compiled from \LaTeX.}
+\end{document}
+
