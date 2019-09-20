@@ -17,7 +17,7 @@
 \AtBeginDocument{\recomputelengths}
 % FONTS
 \usepackage[utf8]{inputenc}
-\defaultfontfeatures{Mapping=tex-text} % converts LaTeX specials (``quotes'' --- dashes etc.) to unicode
+\defaultfontfeatures{Mapping=tex-text}
 
 % Remove % to set to different fonts
 %\setromanfont [Ligatures={Common},Numbers={OldStyle}]{Adobe Caslon Pro}
@@ -59,7 +59,7 @@ platform.
 	\cvline {Languages:}
 {C\#, JavaScript, Python, Java, VB.NET, C, Ruby, Scheme, SQL, HTML, CSS, shell scripting}
 	\cvline {Frameworks:}
-{ASP.NET, Nancy, Django, Ruby on Rails}
+{ASP.NET, .NET Core, Nancy, WPF, Django, Ruby on Rails}
 	\cvline {Software:}
 {Vim, Visual Studio, Git, IIS, Apache, SQL Server, PostgreSQL, MSBuild, Jenkins, Redmine}
 
@@ -68,40 +68,52 @@ platform.
 {2012 -- Now} {Sr. Software Engineer}{Rosnet}{Parkville, MO}{}{
 		\begin{itemize}
 			\item
-Designed and implemented client, server, and admin UI components that integrate 20 different
-restaurant POS systems with Rosnet. This system provides near real-time data from thousands
-of restaurants and services \char`\~4,000 requests per minute.
+				Designed and implemented Rosnet's public API.
+				\httplink{api.rosnet.com}
 			\item
-Introduced modern development practices including: automated builds, automated deployment,
-proper version control, and code reviews.
-    \end{itemize}
+				Designed and implemented Rosnet's POS integration
+				platform using ASP.NET, windows services, SignalR, \&
+				WPF. This system has clients running on thousands of
+				machines and integrates 25 different POS systems with
+				Rosnet. It provides near real-time data and services
+				\char`\~5,000 requests per minute.
+			\item
+				Filled a dev ops role by setting up and maintaining
+				automated builds, deployments, cross platform code
+				search, and SQL server version control.
+			\item
+				Added new features and performed maintenance on various
+				apps using a variety of languages and frameworks
+				including: ASP.NET MVC, Angular, React, Knockout, Cold
+				Fusion, \& VB.
+		\end{itemize}
 }
 	\cventry
 {2005 -- 2012} {Sr. Programmer Analyst}{Cameron Insurance Companies}{Cameron, MO}{}{
 		\begin{itemize}
 			\item 
-Lead developer on a team comprised of four .NET developers, four COBOL programmers, and an outside
-vendor working on a three year mainframe policy system replacement project. During this project I
-utilized my skills in communication, project management, object oriented analysis and design, software
-construction, shell scripting, and debugging to provide an effective solution.
+				Lead developer on a team comprised of four .NET
+				developers, four COBOL programmers, and an  outside
+				vendor working on a three year mainframe policy system
+				replacement project. During this project I utilized my
+				skills in communication, project management, object
+				oriented analysis and design, software construction,
+				shell scripting, and debugging to provide an effective
+				solution.
 			\item 
-Led my team to adopt modern development practices including: code generation, unit testing,
-automated builds, automated deployment, proper version control, and code reviews.
-			\item 
-Designed, wrote, and maintained an ASP.NET web portal that provides access to data and services on
-mainframe systems.
-			\item 
-Implemented a web service that uses industry standard XML to provide real time rating services to third
-party comparative raters.
+				Designed and implemented an ASP.NET app that provide
+				access to data and services on mainframe systems and
+				integrate with third party comparative raters.
 		\end{itemize}
 }
 
 	\cventry
 {2001 -- 2005}{Sr. System Administrator}{Shook, Hardy, \& Bacon}{Kansas City, MO}{}{
-	\begin{itemize}
-		\item Developed an application that tracks hardware, software, and drive usage on 250 servers.
-		\item Wrote scripts to automate repetitive system administration tasks.
-	\end{itemize}
+		\begin{itemize}
+			\item
+				Developed various applications and scripts scripts to
+				automate repetitive system administration tasks.
+		\end{itemize}
 	}
 
 \section{Education} 
@@ -109,8 +121,11 @@ party comparative raters.
 {2001 -- 2004}{Bachelor of Science in Computer Information Systems}{DeVry University}{Kansas City, MO}{}{}
 
 \section{Nerd Cred}
-	\cvlistitem{I created and maintain an open source SQL Server version control utility named Schema Zen.}
 	\cvlistitem{I am an avid reader of programming books. My favorite is "The Pragmatic Programmer".}
+	\cvlistitem{I created \httplink[Schema Zen]{github.com/sethreno/schemazen} to
+	simplify version control of SQL Server schemas.}
+	\cvlistitem{I created \httplink[ReGitLint]{github.com/sethreno/ReGitLint} to
+	simplify automated C\# linting.}
 	\cvlistitem{My first computer was an Apple {][}.}
 	\cvlistitem{This r\'{e}sum\'{e} was compiled from \LaTeX.}
 \end{document}
