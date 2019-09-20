@@ -134,7 +134,7 @@
   \AtBeginDocument{
     \hypersetup{
       breaklinks,
-      baseurl       = http://,
+      baseurl       = https://,
       pdfborder     = 0 0 0,
       pdfpagemode   = UseNone,% do not show thumbnails or bookmarks on opening
 %      pdfstartview  = FitH,
@@ -388,8 +388,8 @@
 % usage: \httplink[optional text]{link}
 \newcommand*{\httplink}[2][]{%
   \ifthenelse{\equal{#1}{}}%
-    {\href{http://#2}{#2}}%
-    {\href{http://#2}{#1}}}
+    {\href{https://#2}{#2}}%
+    {\href{https://#2}{#1}}}
 
 % usage: \emaillink[optional text]{link}
 \newcommand*{\emaillink}[2][]{%
