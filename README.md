@@ -1,5 +1,6 @@
 ![Seth Reno's Resume](output/resume.png)
 
+## Download
 Click [here](output/resume.pdf) to download the pdf version.
 
 ## Compiling
