@@ -1,6 +1,6 @@
-![Seth Reno's Resume](resume.png)
+![Seth Reno's Resume](output/resume.png)
 
-Click [here](resume.pdf) to download the pdf version.
+Click [here](output/resume.pdf) to download the pdf version.
 
 ## Compiling
 The source for this resume is written with LaTeX. It can be compiled to pdf &
@@ -11,13 +11,9 @@ on the host.
 1. Launch Visual Studio Code
 2. Open the repo in the included Dev Container
    Ctrl+Shift+P --> Dev Containers: Open Folder in Container...
-3. Open a terminal in vscode. Ctrl+` and run the following commands
+3. Open a terminal in vscode. Ctrl+` and run the following commands:
 
    ```bash
-    xelatex resume.tex
-    pdftoppm -png resume.pdf > resume.png
+    pushd src && xelatex resume.tex && mv resume.pdf ../output && popd
+    pdftoppm -png output/resume.pdf > output/resume.png
     ```
-
-
-
-
