@@ -1,6 +1,6 @@
-![alt](resume.png)
+![Seth Reno's Resume](resume.png)
 
-Download as [pdf](resume.pdf).
+Click [here](resume.pdf) to download the pdf version.
 
 ## Compiling
 The source for this resume is written with LaTeX. It can be compiled to pdf &
@@ -15,7 +15,7 @@ on the host.
 
    ```bash
     xelatex resume.tex
-    pdftoppm -png myfile.pdf > myfile.png
+    pdftoppm -png resume.pdf > resume.png
     ```
 
 
