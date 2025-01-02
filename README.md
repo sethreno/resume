@@ -1,4 +1,5 @@
 ![Seth Reno's Resume](output/resume.png)
+![Seth Reno's Resume](output/resume-page2.png)
 
 ## Download
 Click [here](output/resume.pdf) to download the pdf version.
@@ -17,4 +18,5 @@ on the host.
    ```bash
     pushd src && xelatex resume.tex && mv resume.pdf ../output && popd
     pdftoppm -png output/resume.pdf > output/resume.png
+    pdftoppm -png output/resume.pdf -f 2 > output/resume-page2.png
     ```
