@@ -1,5 +1,5 @@
-![Seth Reno's Resume](output/resume.png)
-![Seth Reno's Resume](output/resume-page2.png)
+![Seth Reno's Resume Page 1](output/resume.png)
+![Seth Reno's Resume Page 2](output/resume-page2.png)
 
 ## Download
 Click [here](output/resume.pdf) to download the pdf version.
@@ -13,10 +13,4 @@ on the host.
 1. Launch Visual Studio Code
 2. Open the repo in the included Dev Container
    Ctrl+Shift+P --> Dev Containers: Open Folder in Container...
-3. Open a terminal in vscode. Ctrl+` and run the following commands:
-
-   ```bash
-    pushd src && xelatex resume.tex && mv resume.pdf ../output && popd
-    pdftoppm -png output/resume.pdf > output/resume.png
-    pdftoppm -png output/resume.pdf -f 2 > output/resume-page2.png
-    ```
+3. Open a terminal in vscode. Ctrl+ and run `./build.sh`
