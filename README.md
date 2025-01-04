@@ -1,7 +1,7 @@
 ![Seth Reno's Resume](output/resume.png)
 
 ## Download
-Click [here](output/resume.pdf) to download the pdf version.
+Click [here](output/resume.pdf?raw=1) to download the pdf version.
 
 ## Compiling
 The source for this resume is written with LaTeX. It can be compiled to pdf &
