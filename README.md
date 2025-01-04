@@ -1,14 +1,13 @@
-![Seth Reno's Resume Page 1](output/resume.png)
-![Seth Reno's Resume Page 2](output/resume-page2.png)
+![Seth Reno's Resume](output/resume.png)
 
 ## Download
 Click [here](output/resume.pdf) to download the pdf version.
 
 ## Compiling
 The source for this resume is written with LaTeX. It can be compiled to pdf &
-png using `xelatex` and `pdftoppm`. The repo includes a docker image & dev
-container that can be used to compile the resume without installing these tools
-on the host.
+png using `xelatex`, `pdftoppm`, & `imagemagick`'. The repo includes a docker
+image & dev container that can be used to compile the resume without installing
+these tools on the host.
 
 1. Launch Visual Studio Code
 2. Open the repo in the included Dev Container

@@ -9,4 +9,5 @@ RUN apt update &&\
     texlive-xetex \
     fonts-font-awesome \
     git \
-    poppler-utils
+    poppler-utils \
+    imagemagick
