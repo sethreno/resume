@@ -46,6 +46,19 @@ engineering, distributed systems, infra roles (Netflix variant).
 > instructions, providing training, and ensuring settings comply with company
 > and CMS policies.
 
+**Monorepo/DX bullet (good for platform/DevEx roles):**
+> Led monorepo migration that unified CI pipelines and simplified end-to-end
+> testing, improving developer experience across the team.
+
+**LLM quality / ML testing bullet (strong for AI/ML roles):**
+> Designed and implemented an NLP-based test suite to measure LLM output quality
+> for the chatbot and AI insight pipeline, enabling faster iteration and
+> parameter tuning for improved results.
+
+**ML prescreening bullet (strong for data science / analytics / AI roles):**
+> Led integration of ML (scikit-learn) into the dispute prescreening process,
+> reducing time analysts spend on ineligible cases.
+
 **Other bullets (stable across variants):**
 - Proactively optimized AWS costs reducing monthly spend by 50%.
 - Implemented CI/CD pipelines using GitHub Actions and AWS CDK which reduced
