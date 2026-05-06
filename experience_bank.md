@@ -15,9 +15,10 @@ tried across branches, plus notes on what types of roles each bullet fits.
 
 **Netflix / distributed systems / data pipelines:**
 > Senior software engineer with deep experience designing and operating distributed
-> data pipelines and real-time analytics systems. I have a proven track record
-> building high-throughput, observable backend services end-to-end as individual
-> contributor, architect, and team lead.
+> data pipelines and real-time analytics systems. I am obsessed with measuring
+> results — from LLM output quality to service reliability — and have a proven
+> track record building high-throughput, observable backend services end-to-end
+> as individual contributor, architect, and team lead.
 
 **Good for:** General SWE, DevOps/platform, leadership roles (default). Analytics/data
 engineering, distributed systems, infra roles (Netflix variant).
